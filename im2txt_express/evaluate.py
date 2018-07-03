@@ -76,7 +76,7 @@ def evaluate_model(sess, model, global_step, summary_writer, summary_op):
   single_indicator_data = {
     "global_step": 0,
     "losses": None,
-    "generality":, None,
+    "generality": None,
     "weights": None,
     "images": None,
     "inception": None,
